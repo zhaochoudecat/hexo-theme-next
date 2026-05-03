@@ -117,6 +117,40 @@ if ($highlight-theme == 'night') {
     color: $highlight-comment,
     bg-color: $highlight-background
   };
+} else if ($highlight-theme == 'xcode') {
+  $highlight-background   = #ffffff;
+  $highlight-current-line = #f2f2f7;
+  $highlight-selection    = #a4cdff;
+  $highlight-foreground   = #000000;
+  $highlight-comment      = #007400;
+  $highlight-red          = #6432a6;
+  $highlight-orange       = #1c00cf;
+  $highlight-yellow       = #78492a;
+  $highlight-green        = #c41a16;
+  $highlight-aqua         = #326d74;
+  $highlight-blue         = #326d74;
+  $highlight-purple       = #aa0d91;
+  $highlight-gutter       = {
+    color: #8e8e93,
+    bg-color: #f2f2f7
+  };
+} else if ($highlight-theme == 'wwdc16') {
+  $highlight-background   = #1F2128;
+  $highlight-current-line = #2A303C;
+  $highlight-selection    = #3A4050;
+  $highlight-foreground   = #F9F8F5;
+  $highlight-comment      = #59A855;
+  $highlight-red          = #E59053;
+  $highlight-orange       = #DC5A5A;
+  $highlight-yellow       = #F5F4F1;
+  $highlight-green        = #DC5A5A;
+  $highlight-aqua         = #27A79B;
+  $highlight-blue         = #27A79B;
+  $highlight-purple       = #B0619E;
+  $highlight-gutter       = {
+    color: #5C6068,
+    bg-color: #1A1D23
+  };
 } else {
   $highlight-background   = #f7f7f7;
   $highlight-current-line = #efefef;
